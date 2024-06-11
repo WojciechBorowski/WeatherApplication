@@ -1,14 +1,16 @@
 package pl.borowski.weatherapplication.data.local
 
+import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
+import androidx.room.OnConflictStrategy
 import androidx.room.Query
 
 @Dao
 interface CityDao {
-    @Query("SELECT * FROM city")
-    fun getAll(): List<City>
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    suspend fun addCity(city: City)
 
-    @Insert
-    fun insertAll(vararg cities: City)
+    @Query("SELECT * FROM city_table")
+    fun getCities(): LiveData<List<City>>
 }

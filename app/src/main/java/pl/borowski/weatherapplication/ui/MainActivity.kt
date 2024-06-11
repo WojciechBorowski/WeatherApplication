@@ -1,5 +1,5 @@
 package pl.borowski.weatherapplication
-import android.view.MenuItem
+
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         loadFragment(CityListFragment())
 
-        binding.bottomNavigation.setOnItemSelectedListener { item: MenuItem ->
+        binding.bottomNavigation.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.nav_weather -> {
                     loadFragment(WeatherFragment())

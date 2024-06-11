@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">WeatherApplication</string>
+    <string name="city_gdansk_info">Gdańsk to jedno z najstarszych miast w Polsce, położone nad Morzem Bałtyckim. Jest znane z pięknej architektury, bogatej historii i kultury. Główne atrakcje miasta to m.in. Długi Targ, Żuraw oraz Westerplatte. Gdańsk jest również ważnym ośrodkiem naukowym, kulturalnym i gospodarczym.</string>
+    <string name="city_sopot_info">Sopot jest znany z najdłuższego drewnianego molo w Europie, które ma długość ponad 500 metrów. To urocze nadmorskie miasto jest popularnym miejscem wypoczynku, słynącym z pięknych plaż, uzdrowisk oraz licznych festiwali i wydarzeń kulturalnych, takich jak Sopot Festival. Sopot oferuje również wiele atrakcji sportowych i rekreacyjnych.</string>
+    <string name="city_gdynia_info">Gdynia jest nowoczesnym miastem portowym, jednym z najmłodszych w Polsce. Znane z dynamicznego rozwoju i wysokiej jakości życia, Gdynia oferuje wiele atrakcji turystycznych, takich jak Skwer Kościuszki, Muzeum Emigracji oraz Akwarium Gdyńskie. Miasto jest także gospodarzem wielu imprez kulturalnych i sportowych, w tym Opener Festival.</string>
 </resources>
